@@ -7,7 +7,8 @@ LINE Normal -64 -48 -32 -48
 LINE Normal -64 48 -32 48
 LINE Normal 144 -48 32 -48
 LINE Normal 144 48 33 48
-LINE Normal 16 -80 16 -56
+LINE Normal 32 -80 32 -48
+LINE Normal 0 -64 0 -80
 TEXT -32 -48 Left 2 +
 TEXT -32 48 Left 2 -
 TEXT 11 48 Left 2 +
@@ -19,8 +20,8 @@ PINATTR SpiceOrder 1
 PIN -64 48 NONE 8
 PINATTR PinName Vin_n
 PINATTR SpiceOrder 2
-PIN 16 -80 NONE 8
-PINATTR PinName Vdd
+PIN 0 -80 NONE 8
+PINATTR PinName Vdd_amp
 PINATTR SpiceOrder 3
 PIN 144 48 NONE 8
 PINATTR PinName Vo_p
@@ -28,3 +29,6 @@ PINATTR SpiceOrder 4
 PIN 144 -48 NONE 8
 PINATTR PinName Vo_n
 PINATTR SpiceOrder 5
+PIN 32 -80 NONE 8
+PINATTR PinName Vdd_bias
+PINATTR SpiceOrder 6
