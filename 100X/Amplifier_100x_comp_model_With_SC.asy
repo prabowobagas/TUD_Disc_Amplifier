@@ -13,7 +13,7 @@ TEXT -32 -48 Left 2 +
 TEXT -32 48 Left 2 -
 TEXT 11 48 Left 2 +
 TEXT 16 -48 Left 2 -
-TEXT 0 0 Left 2 100dB
+TEXT 0 0 Left 2 120dB
 TEXT 2 24 Left 2 SC
 PIN -64 -48 NONE 8
 PINATTR PinName Vin_p
